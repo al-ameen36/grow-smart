@@ -9,7 +9,7 @@ from llama_index.core import Settings
 
 load_dotenv()
 
-Settings.llm = OpenAI(temperature=0.2, model="gpt-4")
+Settings.llm = OpenAI(temperature=0.2, model="gpt-4o")
 app = FastAPI()
 origins = ["*"]
 
